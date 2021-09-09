@@ -1,2 +1,2 @@
 # java-ej
-Ejemplos de java de clase 
+Ejemplos de java de clases de lenguajes de programación
