@@ -13,6 +13,11 @@ import java.util.Scanner;public class Tarea22 {
         n1 = leer.nextInt();
         System.out.print("Introducir la cantidad de columnas de la segunda tabla: ");
         m1 = leer.nextInt();
+        while(n != n1 && m != m1) {
+            System.out.print("Favor de ingresar una cantidad valida de filas y columnas para la tabla 2: ");
+            n1 = leer.nextInt();
+            m1 = leer.nextInt();
+        }
         a = new int[n][m];
         b =  new int[n1][m1];
         for(i=0;i<n;i++) {
